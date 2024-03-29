@@ -1,0 +1,133 @@
+.cart-cont-items{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    margin-top: 5vh;
+    margin-left: 3vh;
+    font-weight: 200;
+    align-items: center;
+}
+.total{
+    margin-left: -2vh;
+}
+.remove{
+    margin-left: -2vh;
+
+}
+.cart-items{
+   margin: 10px 0px;
+   color: black;
+   display: grid;
+   grid-template-columns: 1fr 1.1fr 1fr 1fr 0.9fr 0.5fr;
+   position: relative;
+   margin-top: 2vh;
+   align-items: center;
+}
+.cart-items img{
+    border-radius: 80px;
+    height: 6vh;
+    width: 6vh;
+    margin-left: 2vh;
+   
+    
+}
+.cart-items hr{
+    width: 1218px;
+    position: absolute;
+    margin-top: 7vh;
+    height: 0.1px;
+    background-color: rgb(9, 10, 9);
+
+
+}
+.cross{
+    cursor:pointer;
+    font-size: 2.5vh;
+}
+.cart-bottom-cont{
+    margin-top: 10vh;
+
+
+}
+.cart-bottom-cont hr{
+    margin: 10px 0px;
+    width: 40%
+}
+
+.cart-details{
+   display: grid;
+   grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.9fr;
+   
+
+    gap: 10px;
+    align-items: center;
+}
+.price-details{
+    margin-left: 15vh;
+}
+.delviry-fee{
+    margin-left: 14.9vh;
+}
+.cart-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-cart{
+    margin-top: 3vh;
+
+}
+.checkout-btn{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 30vh;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+
+}
+.checkout-btn:hover{
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.cart-bottom{
+    position: relative;
+}
+.cart-promocode{
+    margin-top: 15vh;
+    margin-left: 95vh;
+    position: absolute;
+    
+}
+.promocode-holder input{
+    margin-top: 2vh;
+    height: 4vh;
+    width: 40vh;
+}
+.btn-submit{
+    margin-top: 2vh;
+    height: 4vh;
+    width: 20vh;
+    background-color: black;
+    color: white;
+    transition: 0.5s
+}
+.btn-submit:hover{
+    background-color: tomato;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+@media (max-width:750px) {
+    .cart-promocode{
+        flex-direction: column-reverse;
+    }
+    .cart-promocode{
+        justify-content: start;
+    }
+    
+}

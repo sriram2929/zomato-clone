@@ -1,0 +1,180 @@
+.navbar{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px ;
+
+    
+    
+
+}
+.app-logo{
+    width: 150px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5vh;
+    margin-left: 3vh;
+    
+    
+      
+}
+
+.navbar-menu a{
+    margin: 2vh 2vh;
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+   
+    align-items: center;
+    gap: 40px;
+    
+
+
+}
+.search-icon{
+    cursor: pointer;
+}
+.basket{
+    cursor: pointer;
+    position: relative;
+}
+.dot{
+    position: absolute;
+    min-height: 12px;
+    min-width: 12px;
+    border-radius: 6px;
+    background-color: tomato;
+    top: -10px;
+    right: -10px;
+}
+
+.reg-btn{
+    border-radius: 20px;
+    font-size: 2vh;
+    width: 14vh;
+    padding: 5px 20px 5px 7px;
+    transition: 0.7s;
+
+}
+.reg-btn:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+.navbar .active{
+    padding-bottom: 2px;
+           border-bottom: 2px solid black;
+           color: rgba(203, 93, 15, 0.916);
+
+}
+@media(max-width:1350px){
+    .app-logo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+
+    }
+    .search-icon{
+        width: 20px;
+
+    }
+    .reg-btn{
+        padding: 10px 2px;
+    }
+}
+@media(max-width:1170px){
+    .app-logo{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+
+    }
+    .search-icon{
+        width: 20px;
+
+    }
+    .reg-btn{
+        padding: 10px 2px;
+
+    }
+}
+@media(max-width:1120px){
+    .app-logo{
+        width: 100px;
+    }
+    .navbar-menu{
+        gap: 13px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+
+    }
+    .search-icon{
+        width: 16px;
+
+    }
+    .reg-btn{
+        padding: 10px 2px;
+
+    }
+}
+@media(max-width:1088px){
+    .app-logo{
+        width: 80px;
+    }
+    .navbar-menu{
+        gap: 10px;
+        font-size: 15px;
+    }
+    .navbar-right{
+        gap: 20px;
+
+    }
+    .search-icon{
+        width: 13px;
+
+    }
+    .reg-btn{
+        padding: 10px 2px;
+
+    }
+}
+@media(max-width:986px){
+    .app-logo{
+        width: 190px;
+    }
+    .navbar-menu{
+        display: none;
+    }
+    .navbar-right{
+        gap: 20px;
+
+    }
+    .search-icon{
+        width: 30px;
+        height: 3vh;
+
+    }
+    .reg-btn{
+        padding: 10px 2px;
+
+    }
+}

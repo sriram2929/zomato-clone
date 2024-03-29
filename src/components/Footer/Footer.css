@@ -1,0 +1,144 @@
+.footer-cont{
+    height: 40vh;
+    margin-left: 70vh;
+    margin-top: 20vh;
+}
+.footer-cont h2{
+    font-size: 7vh;
+    font-weight: 500;
+}
+.footer-cont h4{
+    font-size: 5vh;
+    margin-left: 14vh;
+    margin-top: 2vh;
+    font-weight: 500;
+}
+.footer-apps{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+   
+    
+
+}
+.playstore{
+    height: 9vh;
+    width: 30vh;
+    margin-left: 4vh;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.playstore:hover{
+   transform: scale(1.05);
+}
+.appstore{
+    height:9vh;
+    width: 30vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.appstore:hover{
+    transform: scale(1.05);
+}
+.footer{
+    height: 50vh;
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    color: white;
+    font-weight: 100;
+    position: relative;
+
+    
+}
+.footer-left .logo{
+    margin-top: -7vh;
+    position: absolute;
+    cursor: pointer;
+}
+.footer-left{
+    margin-left: 20vh;
+    margin-top: 20vh;
+}
+.social-logo{
+    margin-top: 3vh;
+    height: 5vh;
+    padding-left: 2vh;
+    cursor: pointer;
+    
+}
+.socialmedia{
+    margin-left: -2vh;
+}
+.footer-center{
+    margin-top: 17vh;
+    list-style: none;
+    
+
+}
+.footer-center li{
+    margin: 1vh;
+    cursor: pointer;
+}
+.footer-center h3{
+    margin-left: 1vh;
+    margin-top: -2vh;
+    font-size: 3vh;
+}
+.footer-right{
+    margin-top: 17vh;
+}
+.footer-right h3{
+}
+.num{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+.mail{
+    cursor: pointer;
+}
+
+
+
+@media (max-width:750px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        gap:5vh;
+    }
+    .footer-cont{
+        font-size:5vh;
+        width: 180%;
+        margin-left: 5%;
+        }
+}
+
+@media (max-width:1050px){
+    .footer{
+        display: flex;
+        flex-direction:row;
+        gap:5vh;
+    }
+    .footer-cont{
+        font-size:5vh;
+        width: 180%;
+        margin-left: 5%;
+        }
+}
+
+@media (max-width:133px){
+    .footer{
+        display: flex;
+        flex-direction:row;
+        gap:5vh;
+    }
+    .footer-cont{
+        font-size:5vh;
+        width: 180%;
+        margin-left: 25%;
+        }
+}

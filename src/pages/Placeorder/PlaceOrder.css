@@ -1,0 +1,90 @@
+.placeorder{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    
+}
+.placeorder-left{
+    margin-top: 5vh;
+
+}
+.placeorder-cont h3{
+    margin-bottom:2vh ;
+    font-size: 4vh;
+    font-weight: 700;
+}
+.placeorder-details{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.placeorder-details input{
+    height: 4vh;
+    width: 25vh;
+    margin-top: 1vh;
+
+
+}
+.placeorder-mail{
+    margin-top: 2vh;
+}
+.placeorder-mail input{
+    width: 50.8vh;
+    height: 4vh;
+}
+.placeorder-street input{
+    width: 50.8vh;
+    height: 4vh;
+    margin-top: 2vh;
+
+}
+.placeorder-address{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.placeorder-address input{
+    margin-top: 2vh;
+    height: 4vh;
+    width: 25vh;
+    
+
+}
+.placeorder-zipcode{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.placeorder-zipcode input{
+    margin-top: 2vh;
+    height: 4vh;
+    width: 25vh;
+    
+}
+.placeorder-number input{
+    margin-top: 2vh;
+    width: 50.8vh;
+    height: 4vh;
+    margin-top: 2vh;
+
+}
+.cart-bottom{
+    margin-top: 6vh;
+    margin-left: 7vh;
+}
+.h3{
+    position: absolute;
+    font-size: 3vh;
+    
+
+}
+.cart-bottom hr{
+    width: 38%;
+}
+.cart-details{
+    margin-top: 4vh;
+}
+.placeorder-right
+{
+    margin-left:20vh;
+}
